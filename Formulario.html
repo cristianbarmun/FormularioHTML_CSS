@@ -73,7 +73,7 @@
 				<label for="direccion">Dirección:</label>
 				<input type="text" id="direccion" name="direccion_persona"/>
 				<label for="cod_post">Código Postal:</label>
-				<input type="text" id="cod_post" name="cod_post_persona"/>
+				<input type="text" id="cod_post" name="cod_post_persona" maxlength=5/>
 			</p>
 			
 			<p>
@@ -144,12 +144,12 @@
 			<legend>Datos de contacto</legend>
 			<p>
 				<label for="telefono">Teléfono:</label>
-				<input type="text" id="telefono" name="telefono_persona"/>
+				<input type="text" id="telefono" name="telefono_persona" maxlength=9/>
 			</p>
 			
 			<p>
 				<label for="movil">Móvil:</label>
-				<input type="text" id="movil" name="movil_persona"/>
+				<input type="text" id="movil" name="movil_persona" maxlength=9/>
 			</p>
 			
 			<p>
@@ -164,8 +164,8 @@
 			</p>
 			
 			<p class="centrado">
-				<button type="button">Registrar</button> 
-				<button type="button">Limpiar</button> 
+				<button type="submtit">Registrar</button> 
+				<button type="reset">Limpiar</button> 
 			</p>
 			
 		</form>

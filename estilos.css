@@ -17,13 +17,17 @@ h2{
 }
 
 fieldset {
-border:3px groove darkblue; /* Borde */
-border-radius:24px;
+	border:3px groove darkblue; /* Borde */
+	border-radius:24px;
 }
 legend {
-text-align:left; /* Puedes cambiarlo por center o right */
-font-family:Segoe UI; /* Estilo de la fuente del título */
-color:orange; /* Color del título */
+	text-align:left; /* Puedes cambiarlo por center o right */
+	font-family:Segoe UI; /* Estilo de la fuente del título */
+	color:orange; /* Color del título */
+}
+
+input:focus{
+	background-color:#FEF9E7;
 }
 
 .centrado{
