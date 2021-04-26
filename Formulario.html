@@ -2,12 +2,17 @@
 <html>
 	<head>
 		<title>Curso Serbatic</title>
+		
+		<link rel="stylesheet" type="text/css" href="estilos.css"/>
+		
 		<h1>Curso Serbatic</h1>
 	
 	</head>
 	<body>
 		<h2>Formulario de registro</h2>
 		<form action="/Ejercicio2" method="post">
+			<fieldset>
+			<legend>Datos personales</legend>
 			<p>
 				<label for="nombre">Nombre:</label>
 				<input type="text" id="nombre" name="nombre_persona"/>
@@ -27,7 +32,10 @@
 				<label for="fNacim">Fecha de nacimiento:</label>
 				<input type="date" id="fNacim" name="fNacim_persona">
 			</p>
+			</fieldset>
 			
+			<fieldset>
+			<legend>Domicilio</legend>
 			<p>
 				<label for="pais">País:</label>
 				<select name="paises">
@@ -130,7 +138,10 @@
 					<option value="50">Zaragoza</option> 
 				</select>
 			</p>
+			</fieldset>
 			
+			<fieldset>
+			<legend>Datos de contacto</legend>
 			<p>
 				<label for="telefono">Teléfono:</label>
 				<input type="text" id="telefono" name="telefono_persona"/>
@@ -144,6 +155,17 @@
 			<p>
 				<label for="email">E-mail:</label>
 				<input type="text" id="email" name="email_persona"/>
+			</p>
+			</fieldset>
+			
+			<p class="centrado">
+				<input type="checkbox" id="cbox2" value="primer_checkbox"> <label for="cbox2">Acepto el acuerdo de servicios,
+					la declaración de privacidad y la declaración del uso de cookies</label>
+			</p>
+			
+			<p class="centrado">
+				<button type="button">Registrar</button> 
+				<button type="button">Limpiar</button> 
 			</p>
 			
 		</form>
