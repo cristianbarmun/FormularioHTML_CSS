@@ -8,27 +8,144 @@
 	<body>
 		<h2>Formulario de registro</h2>
 		<form action="/Ejercicio2" method="post">
-		<frameset border="2" frameborder="1">
 			<p>
-			<label for="nombre">Nombre:</label>
-			<input type="text" id="nombre" name="nombre_persona"/>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre_persona"/>
 			</p>
 			
 			</p>
-			<label for="ape1">Primer Apellido:</label>
-			<input type="text" id="ape1" name="ape1_persona"/>
+				<label for="ape1">Primer Apellido:</label>
+				<input type="text" id="ape1" name="ape1_persona"/>
 			</p>
 			
 			<p>
-			<label for="ape2">Segundo Apellido:</label>
-			<input type="text" id="ape2" name="ape2_persona"/>
+				<label for="ape2">Segundo Apellido:</label>
+				<input type="text" id="ape2" name="ape2_persona"/>
 			</p>
 			
 			<p>
-			<label for="fNacim">Fecha de nacimiento:</label>
-			<input type="date" id="fNacim" name="fNacim_persona">
+				<label for="fNacim">Fecha de nacimiento:</label>
+				<input type="date" id="fNacim" name="fNacim_persona">
 			</p>
-		</frameset>
+			
+			<p>
+				<label for="pais">País:</label>
+				<select name="paises">
+				   <option value="1">Alemania</option> 
+				   <option value="2">Austria</option> 
+				   <option value="3">Bélgica</option>
+				   <option value="4">Bulgaria</option> 
+				   <option value="5">Chequia</option> 
+				   <option value="6">Chipre</option>
+					<option value="7">Croacia</option>
+					<option value="8">Dinamarca</option>
+					<option value="9">Eslovaquia</option>
+					<option value="10">Eslovenia</option>
+					<option value="11">España</option>
+					<option value="12">Estonia</option>
+					<option value="13">Finlandia</option>
+					<option value="14">Francia</option>
+					<option value="15">Grecia</option>
+					<option value="16">Hungría</option>
+					<option value="17">Irlanda</option>
+					<option value="18">Italia</option>
+					<option value="19">Letonia</option>
+					<option value="20">Lituania</option>
+					<option value="21">Luxemburgo</option>
+					<option value="22">Malta</option>
+					<option value="23">Países Bajos</option>
+					<option value="24">Polonia</option>
+					<option value="25">Portugal</option>
+					<option value="26">Rumania</option>
+					<option value="27">Suecia</option>
+				</select>
+			</p>
+			
+			<p>
+				<label for="direccion">Dirección:</label>
+				<input type="text" id="direccion" name="direccion_persona"/>
+				<label for="cod_post">Código Postal:</label>
+				<input type="text" id="cod_post" name="cod_post_persona"/>
+			</p>
+			
+			<p>
+				<label for="localidad">Localidad:</label>
+				<input type="text" id="localidad" name="localidad_persona"/>
+				
+				<label for="provincia">Provincia:</label>
+				<select name="provinciaEspanolas">
+				   <option value="">- selecciona -</option>
+					<option value="15">A coruña</option>
+					<option value="1">Álava</option>
+					<option value="2">Albacete</option>
+					<option value="3">Alicante</option>
+					<option value="4">Almería</option>
+					<option value="33">Asturias</option>
+					<option value="5">Ávila</option>
+					<option value="6">Badajoz</option>
+					<option value="7">Baleares</option>
+					<option value="8">Barcelona</option>
+					<option value="9">Burgos</option>
+					<option value="10">Cáceres</option>
+					<option value="11">Cádiz</option>
+					<option value="39">Cantabria</option>
+					<option value="12">Castellón</option>
+					<option value="51">Ceuta</option>
+					<option value="13">Ciudad Real</option>
+					<option value="14">Córdoba</option>
+					<option value="16">Cuenca</option>
+					<option value="99">Extranjero</option>
+					<option value="17">Girona</option>
+					<option value="18">Granada</option>
+					<option value="19">Guadalajara</option>
+					<option value="20">Guipúzcoa</option>
+					<option value="21">Huelva</option>
+					<option value="22">Huesca</option>
+					<option value="23">Jaén</option>
+					<option value="26">La rioja</option>
+					<option value="35">Las palmas</option>
+					<option value="24">León</option>
+					<option value="25">Lleida</option>
+					<option value="27">Lugo</option>
+					<option value="28">Madrid</option>
+					<option value="29">Málaga</option>
+					<option value="52">Melilla</option>
+					<option value="30">Murcia</option>
+					<option value="31">Navarra</option>
+					<option value="32">Ourense</option>
+					<option value="34">Palencia</option>
+					<option value="36">Pontevedra</option>
+					<option value="37">Salamanca</option>
+					<option value="38">Santa cruz de tenerife</option>
+					<option value="40">Segovia</option>
+					<option value="41">Sevilla</option>
+					<option value="42">Soria</option>
+					<option value="43">Tarragona</option>
+					<option value="44">Teruel</option>
+					<option value="45">Toledo</option>
+					<option value="46">Valencia</option>
+					<option value="47">Valladolid</option>
+					<option value="48">Vizcaya</option>
+					<option value="49">Zamora</option>
+					<option value="50">Zaragoza</option> 
+				</select>
+			</p>
+			
+			<p>
+				<label for="telefono">Teléfono:</label>
+				<input type="text" id="telefono" name="telefono_persona"/>
+			</p>
+			
+			<p>
+				<label for="movil">Móvil:</label>
+				<input type="text" id="movil" name="movil_persona"/>
+			</p>
+			
+			<p>
+				<label for="email">E-mail:</label>
+				<input type="text" id="email" name="email_persona"/>
+			</p>
+			
 		</form>
 	</body>
 </html>
